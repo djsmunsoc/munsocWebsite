@@ -20,7 +20,7 @@ function Home() {
           <p className='text-center lg:text-left text-[44px] lg:text-[80px] font-extrabold lg:pl-[368px] pb-4 lg:pb-16' data-aos="zoom-out-up" data-aos-delay="300" >DJS</p>
           <p className='text-[75px] lg:text-[180px] font-bold text-center' data-aos="zoom-out-up" data-aos-delay="300">MUNSOC</p>
           <p className='pt-8 lg:pb-12 pb-10 lg:pt-28 text-center text-xl lg:text-2xl text-gray-300' data-aos="fade-up" data-aos-delay="700">A Platform where <span className="font-bold italic">Diplomacy</span> meets <span className="font-bold italic">Education</span></p>
-          <div className="w-full flex justify-center">
+          {/* <div className="w-full flex justify-center">
             <div
               ref={targetRef}
               onClick={() => {navigate('/DJMUN24')}}
@@ -31,7 +31,7 @@ function Home() {
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
               </svg>
             </div>
-          </div>
+          </div> */}
           <div className="w-full flex justify-center">
             <div 
               data-aos="fade-up" 
