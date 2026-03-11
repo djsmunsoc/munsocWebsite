@@ -10,12 +10,55 @@ export const navLinks = [
 
 export const events = [
   {
+    year: "2025 - 2026",
+    events: [
+      {
+        name: "DJS Youth Summit 3.0",
+        date: "28-29th March, 2026",
+        thumbnail: "/events/youthsum3/thumbnail.png",
+        images: [
+          "/events/youthsum/img1.jpg",
+          "/events/youthsum/img2.jpg",
+          "/events/youthsum/img3.jpg",
+          "/events/youthsum/img4.jpg",
+          "/events/youthsum/img5.jpg",
+        ],
+        committees: [
+          {
+            name: "UNSC: United Nations Security Council",
+            description: [
+              "Cross-Border Counterterrorism Operations and the Right to Self-Defense: Re-evaluating Article 51 in the Context of Proxy Insurgencies and Asymmetric Warfare",
+            ],
+          },
+          {
+            name: "UNHRC: United Nations Human Rights Council",
+            description: [
+              "Strenghtening international framework for the protection of religious minorities in post conflict and transitional states and Balancing Freedom of Religion with Secular Governance in Increasingly Diverse Societies",
+            ],
+          },
+          {
+            name: "AIPPM: All India Political Parties Meet",
+            description: [
+              "Discussion on the Growing Centre– State Power Struggle and its Impact on Cooperative Federalism.",
+            ],
+          },
+          {
+            name: "IP: International Press",
+            description: [
+              "Press combines in-depth journalism with captivating photography to bring you stories that matter.",
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
     year: "2024 - 2025",
     events: [
       {
         name: "DJS Youth Summit 2.0",
         date: "28-29th March, 2025",
-        thumbnail: "/events/youthsum2/tb2.png",
+        thumbnail: "/events/youthsum2/thumbnail.png",
         images: [
           "/events/youthsum/img1.jpg",
           "/events/youthsum/img2.jpg",
@@ -253,7 +296,7 @@ export const coreMembers = [
     {
       name: "Sushant Singh",
       description: "Director General",
-      image: "./core/aman.jpg",
+      image: "./core/sushant.png",
       links: {
         linkedin:
           "https://www.linkedin.com/in/aman-mehra-91aabb226?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
@@ -263,7 +306,7 @@ export const coreMembers = [
     {
       name: "Aryan Mirchandani",
       description: "Secretary General",
-      image: "./core/fiona_haria.jpg",
+      image: "./core/aryan.png",
       links: {
         linkedin:
           "https://www.linkedin.com/in/fionaharia?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
@@ -274,7 +317,7 @@ export const coreMembers = [
     {
       name: "Reina Doshi",
       description: "Deputy Secretary General",
-      image: "./core/Aalap.jpg",
+      image: "./core/reina.png",
       links: {
         linkedin:
           "https://www.linkedin.com/in/aalap-dave-85443620a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -286,8 +329,8 @@ export const coreMembers = [
   [
     {
       name: "Jash Gandhi",
-      description: "President",
-      image: "./core/lakshya.jpg",
+      description: "Chairperson",
+      image: "./core/jash.png",
       links: {
         linkedin: "https://www.linkedin.com/in/lakshya-joshi-990007267/",
         instagram:
@@ -298,8 +341,8 @@ export const coreMembers = [
   [
     {
       name: "Dhoon Pandya",
-      description: "Vice President",
-      image: "./core/Mallank.jpg",
+      description: "Vice Chairperson",
+      image: "./core/dhoon.png",
       links: {
         linkedin: "https://www.linkedin.com/in/mallankgogri",
         instagram: "https://www.instagram.com/mallankg",
@@ -307,8 +350,8 @@ export const coreMembers = [
     },
     {
       name: "Khush Doshi",
-      description: "Vice President",
-      image: "./core/Mallank.jpg",
+      description: "Vice Chairperson",
+      image: "./core/khush.png",
       links: {
         linkedin: "https://www.linkedin.com/in/mallankgogri",
         instagram: "https://www.instagram.com/mallankg",
@@ -319,7 +362,7 @@ export const coreMembers = [
     {
       name: "Jahan Parekh",
       description: "Secretary",
-      image: "./core/Shreya_.jpg",
+      image: "./core/jahan.png",
       links: {
         linkedin:
           "https://www.linkedin.com/in/shreya-singh-a6b875252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -330,7 +373,7 @@ export const coreMembers = [
     {
       name: "Prisha Paleja",
       description: "Delegate Outreach Head",
-      image: "./core/Mohit.jpg",
+      image: "./core/prisha.png",
       links: {
         linkedin: "http://www.linkedin.com/in/mohit-shah-38939821a",
         instagram: "https://www.instagram.com/_mohit.13_/#",
@@ -341,7 +384,7 @@ export const coreMembers = [
     {
       name: "Arpita Rathi",
       description: "Events Head",
-      image: "./core/Sharan.jpg",
+      image: "./core/arpita.png",
       links: {
         linkedin:
           "https://www.linkedin.com/in/sharan-shetty-26445821b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
@@ -352,7 +395,7 @@ export const coreMembers = [
     {
       name: "Pulkit Mantri",
       description: "Events Head",
-      image: "./core/Aneesh.jpg",
+      image: "./core/pulkit.png",
       links: {
         linkedin:
           "https://www.linkedin.com/in/aneesh-j-287926289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
@@ -363,7 +406,7 @@ export const coreMembers = [
     {
       name: "Dhruv Mehta",
       description: "Marketing Head",
-      image: "./core/Meet_Jain.jpg",
+      image: "./core/dhruv.png",
       links: {
         linkedin:
           "https://www.linkedin.com/in/meet-jain14?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -376,7 +419,7 @@ export const coreMembers = [
     {
       name: "Anvesha Sawant",
       description: "Creatives Head",
-      image: "./core/RiyaGala.jpg",
+      image: "./core/anvesha.png",
       links: {
         linkedin:
           "https://www.linkedin.com/in/riya-gala-96858b294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -387,13 +430,13 @@ export const coreMembers = [
     {
       name: "Lakshita Yadav",
       description: "Creatives Head",
-      image: "",
+      image: "./core/lakshita.png",
       links: { linkedin: "", instagram: "" },
     },
     {
       name: "Ritwika Das",
       description: "Production Head",
-      image: "./core/RiyaGala.jpg",
+      image: "./core/ritwika.png",
       links: {
         linkedin:
           "https://www.linkedin.com/in/riya-gala-96858b294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",

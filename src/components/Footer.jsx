@@ -84,7 +84,7 @@ export default function Footer() {
                 <Link
                   to="/DJMUN24"
                 >
-                  DJS MUN 25
+                  Youth Summit 3.0
                 </Link>
               </p>
               <p className="hover:translate-x-1 transition-all transition-ease">

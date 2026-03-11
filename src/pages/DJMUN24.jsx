@@ -10,7 +10,7 @@ const DJMUN24 = () => {
       title: "UNSC: United Nations Security Council",
       content:
         "Cross-Border Counterterrorism Operations and the Right to Self-Defense: Re-evaluating Article 51 in the Context of Proxy Insurgencies and Asymmetric Warfare",
-      logo: "./icons/crisis.jpg",
+      logo: "./icons/unsc.png",
       listlink: "list1",
       flowlink: "flow",
       timelink: "time",
@@ -19,7 +19,7 @@ const DJMUN24 = () => {
       title: "UNHRC: United Nations Human Rights Council",
       content:
         "Strenghtening international framework for the protection of religious minorities in post conflict and transitional states and Balancing Freedom of Religion with Secular Governance in Increasingly Diverse Societies",
-      logo: "./icons/unsc.png",
+      logo: "./icons/unhrc.png",
       listlink: "list2",
       flowlink: "flow1",
       timelink: "time1",
@@ -28,7 +28,7 @@ const DJMUN24 = () => {
       title: "AIPPM: All India Political Parties Meet",
       content:
         "Discussion on the Growing Centre– State Power Struggle and its Impact on Cooperative Federalism.",
-      logo: "./icons/loksabha.jpg",
+      logo: "./icons/aippm.png",
       listlink: "list3",
       flowlink: "flow2",
       timelink: "time2",
@@ -42,7 +42,7 @@ const DJMUN24 = () => {
     //   timelink: 'time3',
     // },
     {
-      title: "International Press (IP)",
+      title: "IP: International Press",
       content:
         "Press combines in-depth journalism with captivating photography to bring you stories that matter.",
       logo: "./icons/ip.png",
@@ -97,12 +97,12 @@ const DJMUN24 = () => {
           >
             Participants List
           </button>
-          <button
+          {/* <button
             onClick={() => handleTimeClick(timelink)}
             className="text-white px-4 py-2 rounded-full border-2 border-white hover:text-black hover:bg-white hover:scale-110 transition duration-400"
           >
             &#x1F552;
-          </button>
+          </button> */}
         </div>
       </div>
       <div className="hidden lg:block w-full lg:w-1/4">
@@ -133,11 +133,14 @@ const DJMUN24 = () => {
         data-aos="fade-down"
         data-aos-delay="300"
       >
-        <div className="w-full text-xl lg:text-3xl font-bold lg:font-extrabold mb-10 lg:pl-1 pl-3" data-aos="fade-down" data-aos-delay="300">
-        <p className="w-full text-center">Date: 28th & 29th March, 2026</p>
-        <CountdownTimer targetDate="2026-03-28" showSeconds={true} />
+        <div
+          className="w-full text-xl lg:text-3xl font-bold lg:font-extrabold mb-10 lg:pl-1 pl-3"
+          data-aos="fade-down"
+          data-aos-delay="300"
+        >
+          <p className="w-full text-center">Date: 28th & 29th March, 2026</p>
+          <CountdownTimer targetDate="2026-03-28" showSeconds={true} />
         </div>
-        
       </div>
       <div
         className="w-full lg:px-44 px-[14px] text-2xl text-center pb-10"
@@ -145,8 +148,30 @@ const DJMUN24 = () => {
         data-aos-delay="300"
       >
         <p>
-          {/* Join us for an exhilarating journey of diplomacy and debate at the DJMUN 2025 Conference! With five engaging committees tackling critical global issues, this is your opportunity to step into the shoes of international diplomats, collaborate with peers, and make your voice heard on the world stage. <br /> <br />Registrations are now live – don't miss out on being a part of this transformative experience. Sharpen your negotiation skills, expand your global perspective, and contribute to impactful resolutions */}
+          Join us for an exhilarating journey of diplomacy and debate at the
+          Youth Summit 3.0 Conference! With five engaging committees tackling
+          critical global issues, this is your opportunity to step into the
+          shoes of international diplomats, collaborate with peers, and make
+          your voice heard on the world stage. <br /> <br />
+          Registrations are now live – don't miss out on being a part of this
+          transformative experience. Sharpen your negotiation skills, expand
+          your global perspective, and contribute to impactful resolutions
         </p>
+      </div>
+
+      <div
+        className="w-full flex flex-col justify-center items-center mb-10"
+        data-aos="fade-up"
+        data-aos-delay="400"
+      >
+        <button
+          className="text-md lg:text-xl px-6 py-4 text-white rounded-full border-[2px] border-solid border-white font-semibold hover:text-[#242424] hover:scale-110 button-2"
+          onClick={() =>
+            window.open("https://forms.gle/2PKkf3NWzcyRC4S46", "_blank")
+          }
+        >
+          Register Here
+        </button>
       </div>
 
       <div

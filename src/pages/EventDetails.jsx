@@ -28,7 +28,7 @@ function EventDetails() {
     <>
       <div className="flex lg:flex-row flex-col items-start justify-between pr-3 mb-8">
         <div className="text-white max-w-2/3 min-h-screen flex flex-col items-start lg:pl-6 pt-6 lg:pr-1 pl-4 pr-4" data-aos="fade-right">
-          <h1 className="lg:text-8xl text-6xl font-semibold text-center lg:text-left mb-4">{state.name}</h1>
+          <h1 className="lg:text-5xl text-6xl font-extrabold text-center lg:text-left mb-4 italic" style={{textShadow: '5px 5px 30px rgba(0, 0, 0, 0.8), 0 4px 8px rgba(0,0,0,0.5)'}}>{state.name}</h1>
           <div className="text-2xl lg:text-3xl font-extrabold mb-8 lg:pl-1 pl-3">
             <p className='w-full text-center lg:text-left'>Date: {state.date}</p>
           </div>
