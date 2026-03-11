@@ -294,13 +294,37 @@ export const events = [
 export const coreMembers = [
   [
     {
+      name: "Dr. Hari Vasudevan",
+      description: "Principal - DJSCE",
+      image: "./core/harisir.png",
+      links: {
+        linkedin:
+          "",
+        instagram: "",
+      },
+    },
+  ],
+  [
+    {
+      name: "Prof. Ranjeet Puyed",
+      description: "Faculty In-Charge",
+      image: "./core/ranjeetsir.jpg",
+      links: {
+        linkedin:
+          "",
+        instagram: "",
+      },
+    },
+  ],
+  [
+    {
       name: "Sushant Singh",
       description: "Director General",
       image: "./core/sushant.png",
       links: {
         linkedin:
-          "https://www.linkedin.com/in/aman-mehra-91aabb226?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        instagram: "https://www.instagram.com/aman.mehraaaa/",
+          "https://www.linkedin.com/in/sushant-singh-414981247?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+        instagram: "https://www.instagram.com/sushant.singh45?igsh=MXA4ZDYzM3c4bmh0eQ%3D%3D&utm_source=qr",
       },
     },
     {
@@ -309,9 +333,9 @@ export const coreMembers = [
       image: "./core/aryan.png",
       links: {
         linkedin:
-          "https://www.linkedin.com/in/fionaharia?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+          "",
         instagram:
-          "https://www.instagram.com/fiona.haria?igsh=MTcyeDc2cXQ1djkyMA%3D%3D&utm_source=qr",
+          "",
       },
     },
     {
@@ -320,9 +344,9 @@ export const coreMembers = [
       image: "./core/reina.png",
       links: {
         linkedin:
-          "https://www.linkedin.com/in/aalap-dave-85443620a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+          "http://linkedin.com/in/reina-doshi",
         instagram:
-          "https://www.instagram.com/daveaalap23?igsh=MTRjbTByd3Rtbmt2dQ==",
+          "",
       },
     },
   ],
@@ -332,9 +356,9 @@ export const coreMembers = [
       description: "Chairperson",
       image: "./core/jash.png",
       links: {
-        linkedin: "https://www.linkedin.com/in/lakshya-joshi-990007267/",
+        linkedin: "https://www.linkedin.com/in/jash-gandhi-10b356333/",
         instagram:
-          "https://www.instagram.com/lakshyaj03?igsh=amxvc244eHV3NmNk&utm_source=qr",
+          "https://www.instagram.com/jash.gandhi.19?igsh=MWk5NDlqZ3N1NmEyeg%3D%3D&utm_source=qr",
       },
     },
   ],
@@ -344,8 +368,8 @@ export const coreMembers = [
       description: "Vice Chairperson",
       image: "./core/dhoon.png",
       links: {
-        linkedin: "https://www.linkedin.com/in/mallankgogri",
-        instagram: "https://www.instagram.com/mallankg",
+        linkedin: "",
+        instagram: "",
       },
     },
     {
@@ -353,8 +377,8 @@ export const coreMembers = [
       description: "Vice Chairperson",
       image: "./core/khush.png",
       links: {
-        linkedin: "https://www.linkedin.com/in/mallankgogri",
-        instagram: "https://www.instagram.com/mallankg",
+        linkedin: "https://www.linkedin.com/in/khush-doshi-97322630a?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+        instagram: "https://www.instagram.com/khush.wnl?igsh=MXNoYWZhZzAybmZwdA==",
       },
     },
   ],
@@ -365,9 +389,9 @@ export const coreMembers = [
       image: "./core/jahan.png",
       links: {
         linkedin:
-          "https://www.linkedin.com/in/shreya-singh-a6b875252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+          "https://www.linkedin.com/in/jahan-parekh-518a37260?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         instagram:
-          "https://www.instagram.com/shreyaa_singhh_16?igsh=MXNoeWRuNG15a3p6MA==",
+          "https://www.instagram.com/jahan.parekh?igsh=MWVxdnVuNHZ0eWI0dw==",
       },
     },
     {
@@ -375,8 +399,8 @@ export const coreMembers = [
       description: "Delegate Outreach Head",
       image: "./core/prisha.png",
       links: {
-        linkedin: "http://www.linkedin.com/in/mohit-shah-38939821a",
-        instagram: "https://www.instagram.com/_mohit.13_/#",
+        linkedin: "",
+        instagram: "",
       },
     },
   ],
@@ -387,9 +411,9 @@ export const coreMembers = [
       image: "./core/arpita.png",
       links: {
         linkedin:
-          "https://www.linkedin.com/in/sharan-shetty-26445821b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+          "",
         instagram:
-          "https://www.instagram.com/__iamsharan__?igsh=cmdlN3Fqc2libTE5&utm_source=qr",
+          "",
       },
     },
     {
@@ -398,9 +422,9 @@ export const coreMembers = [
       image: "./core/pulkit.png",
       links: {
         linkedin:
-          "https://www.linkedin.com/in/aneesh-j-287926289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+          "",
         instagram:
-          "https://www.instagram.com/_aneeeshhhh?igsh=OXBucTZ3NjE3YXo2&utm_source=qr",
+          "",
       },
     },
     {
@@ -409,9 +433,9 @@ export const coreMembers = [
       image: "./core/dhruv.png",
       links: {
         linkedin:
-          "https://www.linkedin.com/in/meet-jain14?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+          "",
         instagram:
-          "https://www.instagram.com/meet_jain14?igsh=MTA0bWY1bW40eXhieQ==",
+          "",
       },
     },
   ],
@@ -422,9 +446,9 @@ export const coreMembers = [
       image: "./core/anvesha.png",
       links: {
         linkedin:
-          "https://www.linkedin.com/in/riya-gala-96858b294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+          " https://www.linkedin.com/in/anvesha-sawant/",
         instagram:
-          "https://www.instagram.com/riyaa.gala?igsh=MTVkcmVyY2FwNDJlMw==",
+          "https://www.instagram.com/jash.gandhi.19?igsh=MWk5NDlqZ3N1NmEyeg%3D%3D&utm_source=qr",
       },
     },
     {
@@ -439,9 +463,9 @@ export const coreMembers = [
       image: "./core/ritwika.png",
       links: {
         linkedin:
-          "https://www.linkedin.com/in/riya-gala-96858b294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+          "",
         instagram:
-          "https://www.instagram.com/riyaa.gala?igsh=MTVkcmVyY2FwNDJlMw==",
+          "",
       },
     },
   ],
